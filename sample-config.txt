@@ -1,0 +1,2 @@
+--url="https://calendar.google.com/" --save-session --position=-100;30 --size=800;600 --border-style=Fixed
+--url="https://mail.google.com/" --save-session --position=-100;-30 --size=800;600 --border-style=Fixed

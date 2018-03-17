@@ -1,0 +1,2 @@
+--url="https://calendar.google.com/" --position=-60;10 --size=800;600 --border-style=Sizable
+# --url="https://mail.google.com/" --position=-100;-30 --size=800;600 --border-style=None

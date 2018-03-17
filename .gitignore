@@ -2,4 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/OP.WebWidget/bin/x64
+/OP.WebWidget/bin
+/OP.WebWidget/obj
+/.vs
+/packages
