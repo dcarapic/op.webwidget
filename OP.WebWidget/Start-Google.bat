@@ -1,0 +1,1 @@
+﻿OP.WebWidget --config-file="sample-config.txt" --save-session

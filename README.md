@@ -18,10 +18,9 @@ The application supports the following command line options:
     The initial URL that will be loaded.
 
 
-    --save-session=[true|false]
+    --save-session
 
-    If true then the browser session is stored and can be reused. If false then the browser is basically working in Anonymous mode. 
-    Default value is false.
+    If set then the browser session is stored and can be reused. Otherwise the browser is basically working in Anonymous mode. 
 
 
     --session-folder="..path.."
@@ -86,7 +85,7 @@ The application supports the following command line options:
     Hide browser home button. Home button navigates to initial URL.
 
 
-    --config-file
+    --config-file="config file"
 
     File containing configuration file. Each line in the file must hold the command line options and each line will open a new window. Any additional options (except --url will be forwarded to new windows).
 
@@ -95,6 +94,6 @@ The application supports the following command line options:
     --url="https://calendar.google.com/"
     Open Google calendar.
 
-    --url="https://mail.google.com/" --save-session --position=-100;-30 --size=800;600 --border-style=Fixed
+    --url="https://mail.google.com/" --save-session --position=-100,-30 --size=800,600 --border-style=Fixed
     Open Google mail. Save the session so that you will remain logged in.
 
